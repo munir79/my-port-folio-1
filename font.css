@@ -1,0 +1,163 @@
+.head{
+    display: flex;
+}
+
+.img{
+    border: 2px solid silver;
+    border-radius: 100%;
+    width: 80px;
+    height: 80px;
+}
+.img2{
+    width: 340px;
+    height: 350px;
+}
+.border{
+    display: flex;
+  border-bottom: 2px solid silver;
+  margin-top: 0;
+  padding-top: 0;
+   
+    
+    width: 340px;
+ 
+}
+.likeComment{
+    margin-top: 2px;
+    padding-left: 10px;
+    margin-left: 5px;
+}
+.div1{
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+.maindiv{
+   
+ 
+    width: 340px;
+    margin-left: 15px;
+}
+.extra{
+    
+    margin-top: 8px;
+    border: 2px solid silver;
+}
+.cover{
+    margin-left: 450px;
+}
+.coimg{
+   
+    max-height: 600px;
+
+    width: 600px;
+    border-radius: 7px;
+ transition: width  4s  ;  
+    
+}
+.coimg:hover{
+    width: 400px;
+   
+   
+}
+.sec1{
+    margin-left: 500px;
+    display: flex;
+    border-bottom: 2px solid silver;
+    width: 570px;
+}
+.upsec{
+    background-color: rgb(107,109,110);
+    width: 100%;
+}
+.downsec{
+    width: 100%;
+    background-color: rgb(24,25,26);
+    color: white;
+    display: flex;
+}
+.btn{
+    margin-top: 58px;
+    margin-left: 40px;
+}
+.story{
+    background-color:rgb(35,116,225);
+    padding: 4px;
+    border-radius: 7px;
+}
+.nav a{
+    text-decoration: none;
+    color: black;
+    padding: 6px;
+    font-size: 17px;
+    font-weight: bold;
+   
+   
+}
+.nav{
+    margin-left: 500px;
+    height: 80px;
+    justify-content: center;
+    margin-top: 30px;
+    width: 500px;
+    transition: width 3s;
+   
+   
+    
+}
+.nav:hover{
+    
+    border-radius: 15px;
+    width: 500px;
+
+}
+.box{
+    
+    width: 380px;
+    margin-left: 270px;
+   height: 600px;
+ box-shadow: black;
+ margin-top: 10px;
+ background-color: rgb(36,37,38);
+
+ 
+
+ box-shadow: rgba(170, 162, 162, 0.35) 0px 5px 15px 5px;
+ border-radius: 10px;
+
+transition: height 2s ,transform 2s;
+ 
+    
+}
+.box:hover{
+    background-color: crimson;
+    height: 400px;
+    transform: rotate(180deg);
+}
+.text{
+    text-align: center;
+    margin-left: 10px;
+    padding-left: 10px;
+}
+.bio{
+    height: 30px;
+    width: 240px;
+    background-color: rgb(178,179,183);
+    border-radius: 7px;
+    box-shadow: rgba(170, 162, 162, 0.35) 0px 5px 15px 5px;
+    margin-left: 30px;
+    margin-bottom: 6px;
+
+}
+.bio:hover{
+    background-color:black;
+}
+
+.info{
+    padding: 13px;
+}
+button:hover{
+   
+    color: white;
+    
+
+}
